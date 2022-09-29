@@ -10,6 +10,8 @@ def dice_roll(sides, rolls):
                 sleep(1.5)
         print(f'Total: {total}\n')
         return total
-n = int(input('\nInput the number of sides: '))
-rolls = int(input('\nInput the number of rolls: '))
-dice_roll(n, rolls)
+
+if __name__ == '__main__':
+        n = int(input('\nInput the number of sides: '))
+        rolls = int(input('\nInput the number of rolls: '))
+        dice_roll(n, rolls)
